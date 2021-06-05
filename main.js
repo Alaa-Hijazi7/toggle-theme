@@ -1,2 +1,2 @@
 document.querySelector("html").dataset.theme = `theme-light`;
-const switchTheme = () => document.querySelector("html").dataset.theme = `theme-${theme}`;
+const switchTheme = theme => document.querySelector("html").dataset.theme = `theme-${theme}`;
